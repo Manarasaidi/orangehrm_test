@@ -20,4 +20,4 @@ class LoginPage:
     def login(self, username, password):
         self.enter_username(username)
         self.enter_password(password)
-        self.clic_login()
+        self.clic_login()  # ✅ already clicks

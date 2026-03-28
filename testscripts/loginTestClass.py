@@ -13,5 +13,7 @@ def setup():
 
 def test_valid_login(setup):
     driver = setup
+
     loginPage = LoginPage(driver)
-    loginPage.login("Manar", "saidi123")
+    loginPage.login("Admin", "admin123")  # already clicks login
+
